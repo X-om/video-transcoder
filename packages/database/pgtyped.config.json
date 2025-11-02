@@ -1,0 +1,9 @@
+{
+  "srcDir": "./queries",
+  "failOnError": true,
+  "target": "./generated",
+  "include": ["**/*.sql"],
+  "db": {
+    "connectionString": "env:DATABASE_URL"
+  }
+}

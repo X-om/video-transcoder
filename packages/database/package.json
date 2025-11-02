@@ -1,0 +1,17 @@
+{
+  "name": "@repo/database",
+  "type": "module",
+  "scripts": {
+    "migrate": "bun run migrate.ts",
+    "generate:queries": "pgtyped -t",
+    "generate:queries:watch": "pgtyped -w",
+    "generate:types": "pg-to-ts",
+    "generate": "bun run generate:types && bun run generate:queries",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "postgres": "^3.4.7"
+  }
+}

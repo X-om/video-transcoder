@@ -1,0 +1,6 @@
+[install]
+optional = true
+auto = "fallback"
+
+[test]
+coverage = true

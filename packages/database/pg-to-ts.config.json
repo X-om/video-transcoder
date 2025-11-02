@@ -1,0 +1,9 @@
+{
+  "connection": {
+    "connectionString": "env:DATABASE_URL"
+  },
+  "schema": {
+    "include": ["public"]
+  },
+  "output": "./generated/schema.d.ts"
+}
