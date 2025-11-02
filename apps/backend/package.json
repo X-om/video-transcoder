@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@repo/utils": "workspace:*",
-    "dotenv": "^16.4.5"
+    "dotenv": "^17.2.3"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
