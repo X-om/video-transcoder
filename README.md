@@ -58,12 +58,15 @@ bun run dev
 ## 📦 Packages
 
 ### `@repo/eslint-config`
+
 Shared ESLint configuration with strict TypeScript rules.
 
 ### `@repo/tsconfig`
+
 Shared TypeScript configuration for all packages.
 
 ### `@repo/utils`
+
 Shared utility functions and helpers.
 
 ## 🐳 Docker Support

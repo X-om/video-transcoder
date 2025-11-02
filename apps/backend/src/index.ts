@@ -5,7 +5,6 @@ const main = async (): Promise<void> => {
   console.info(greet("Omnidev Turbo"));
   console.info(`🚀 Server starting on ${env.HOST}:${env.PORT}`);
   console.info(`📦 Environment: ${env.NODE_ENV}`);
-
 };
 
 main().catch(error => {

@@ -3,12 +3,5 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": [
-    "src",
-    "migrate.ts",
-    "queries",
-    "repositories",
-    "client.ts",
-    "index.ts"
-  ]
+  "include": ["src", "migrate.ts", "queries", "repositories", "client.ts", "index.ts"]
 }
